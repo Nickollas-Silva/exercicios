@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(14, 28, 56);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: orange;
+    background-color: white;
+}
+
+h2{
+    background-color: white;
+    color: black;
+}

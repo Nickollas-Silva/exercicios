@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para vaga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário para vaga de youtuber</h1>
+        <form action="aposEnvio.html">
+            <div class="contextoFormulario">
+                <div class="camposFormulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome:" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="nomeMae">Nome da mãe:</label>
+                    <input type="text" name="nomeMae" id="nomeMae" placeholder="Digite o nome da mae:" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="nomePai">Nome do pai:</label>
+                    <input type="text" name="nomePai" id="nomePai" placeholder="Digite o nome do pai:">
+                </div>
+            </div>
+            <div class="contextoFormulario">
+                <div class="camposFormulario">
+                    <label for="rua">Rua:</label>
+                    <input type="text" name="rua" id="rua" placeholder="Digite o nome da rua:" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro" placeholder="Digite o nome do bairro:" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="numeroCasa">Número da casa:</label>
+                    <input type="text" name="numeroCasa" id="numeroCasa" placeholder="Nº da casa" required>
+                </div>
+            </div>
+            <div class="contextoFormulario">
+                <div class="camposFormulario">
+                    <label for="telefone">Número de telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Ex: (00)99999-5555" required>
+                </div>
+                <div class="camposFormulario">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="telefone" placeholder="Digite seu email:" required>
+                </div>
+            </div>
+            <div class="camposFormulario">
+                <label for="urlVideo">Url:</label>
+                <input type="url" name="urlVideo" id="urlVideo" placeholder="Insira a url do video aqui:" required>
+            </div>
+                
+            <input type="submit" value="Enviar Formulário" id="enviarForm">
+        </form>
+    </div>
+    <footer>
+        <p>
+            Página feita por Nickollas
+        </p>
+    </footer>
+</body>
+</html>

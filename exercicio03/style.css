@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 217, 202);
+    color: rgb(61, 6, 6);
+    font-size: 40px;
+}
+.parteDeCima{
+    border-color: rgb(244, 108, 108);    
+}
+
+.parteDoMeio{
+    border-color: rgb(243, 115, 224);
+}
+
+.parteDeBaixo{
+    border-color: rgb(129, 209, 222);
+}
+
+#zero{
+    border-color: rgb(115, 115, 222);
+}
+
+#um{
+    background-color: palegoldenrod;
+}
+
+#dois{
+    background-color: palegreen;
+}
+
+#tres{
+    background-color: paleturquoise;
+}
+
+#quatro{
+    background-color: palevioletred;
+}
+
+#cinco{
+    background-color: papayawhip;
+}
+
+#seis{
+    background-color: peachpuff;
+}
+
+#sete{
+    background-color: peru;
+}
+
+#oito{
+    background-color: pink;
+}
+
+#nove{
+    background-color: plum;
+}
+
+#zero{
+    background-color: purple;
+}
+
+h3{
+    margin: 0;
+    display: inline-block;
+    border: solid 7px black;
+    padding: 30px 40px 30px 40px
+}
+
+h3.numero:active{
+    color: white;
+    background-color: black;
+}
